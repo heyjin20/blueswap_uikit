@@ -21,17 +21,11 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
       <g fill="none" fill-rule="evenodd">
         <g>
           <g>
-            <text
-              fill="#414859"
-              font-family="Rubik-Bold, Rubik"
-              font-size="20"
-              font-weight="900"
-              transform="translate(-56 -16) translate(56 16)"
-            >
-              <tspan x="38" y="24">
+            <text fill="#414859" font-size="20" font-weight="500" transform="translate(-56 -16) translate(56 16)">
+              <tspan x="38" y="24" style={{ fontFamily: "Rubik Medium" }}>
                 Blue{" "}
               </tspan>{" "}
-              <tspan x="85.62" y="24" font-family="Rubik-Light, Rubik" font-weight="300">
+              <tspan x="85.62" y="24" font-family="Rubik Light" font-weight="300">
                 Swap
               </tspan>
             </text>

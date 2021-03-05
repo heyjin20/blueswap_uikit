@@ -22,8 +22,7 @@ const LinkLabel = styled.div<{ isPushed: boolean }>`
   transition: color 0.4s;
   flex-grow: 1;
   margin-left: 7px;
-  font-weight: bold;
-  letter-spacing: 1.49px;
+  font-family: Rubik Medium;
 `;
 
 const MenuEntry = styled.div<Props>`

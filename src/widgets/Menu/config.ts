@@ -93,10 +93,6 @@ export const links = [
     label: "More",
     icon: "MoreIcon",
     items: [
-      // {
-      //   label: "Voting",
-      //   href: "https://voting.pancakeswap.finance",
-      // },
       {
         label: "Github",
         href: "https://github.com/Palette-Finance/",
@@ -105,10 +101,10 @@ export const links = [
         label: "Docs",
         href: "https://docs.blueswap.finance/",
       },
-      // {
-      //   label: "Blog",
-      //   href: "",
-      // },
+      {
+        label: "Blog",
+        href: "https://medium.com/@palettefinance",
+      },
     ],
   },
 ];
