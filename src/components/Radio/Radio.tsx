@@ -35,7 +35,7 @@ const Radio = styled.input.attrs({ type: "radio" })<RadioProps>`
   border: 0;
   border-radius: 50%;
   background-color: ${({ theme }) => theme.colors.input};
-  box-shadow: ${({ theme }) => theme.shadows.inset};
+  box-shadow: none;
 
   &:after {
     border-radius: 50%;
@@ -48,12 +48,12 @@ const Radio = styled.input.attrs({ type: "radio" })<RadioProps>`
   }
 
   &:hover:not(:disabled):not(:checked) {
-    box-shadow: ${({ theme }) => theme.shadows.focus};
+    box-shadow: none;
   }
 
   &:focus {
     outline: none;
-    box-shadow: ${({ theme }) => theme.shadows.focus};
+    box-shadow: none;
   }
 
   &:checked {

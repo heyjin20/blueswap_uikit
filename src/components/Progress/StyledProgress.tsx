@@ -23,7 +23,7 @@ const StyledProgress = styled.div`
   position: relative;
   background-color: ${({ theme }) => theme.colors.input};
   border-radius: 32px;
-  box-shadow: ${({ theme }) => theme.shadows.inset};
+  box-shadow: none;
   height: 16px;
   overflow: hidden;
 `;
