@@ -27,11 +27,19 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
       ) : (
         <Button
           size="sm"
+          variant="secondary"
           onClick={() => {
             onPresentConnectModal();
           }}
+          style={{
+            fontFamily: "Rubik Bold",
+            fontSize: "14px",
+            fontWeight: "bold",
+            letterSpacing: "1.31px",
+            color: "#4075bb",
+          }}
         >
-          Connect
+          CONNECT
         </Button>
       )}
     </div>

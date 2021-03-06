@@ -5,7 +5,7 @@ export const baseColors = {
   primary: "#388af7",
   primaryBright: "#388af7",
   primaryDark: "#388af7",
-  secondary: "#7645D9",
+  secondary: "#388AF7",
   success: "#388af7",
   warning: "#FFB237",
 };
@@ -13,7 +13,7 @@ export const baseColors = {
 export const brandColors = {
   binance: "#F0B90B",
 };
-// textSubtle: "#8f80ba",
+
 export const lightColors: Colors = {
   ...baseColors,
   ...brandColors,
@@ -23,7 +23,7 @@ export const lightColors: Colors = {
   invertedContrast: "#FFFFFF",
   input: "#deecff",
   tertiary: "#EFF4F5",
-  text: "#452A7A",
+  text: "#388AF7",
   textDisabled: "#BDC2C4",
   textSubtle: "#000000",
   textSubtleDropdown: "#000000",

@@ -23,10 +23,11 @@ const StyledLink = styled(Link)`
     }
   }
   .desktop-icon {
-    width: 156px;
-    display: none;
+    display: block;
+    margin-left: -20px;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;
+      margin-left: 0px;
     }
   }
 `;
@@ -35,7 +36,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = (
     <>
-      <LogoIcon className="mobile-icon" />
+      {/* <LogoIcon className="mobile-icon" /> */}
       <LogoWithText className="desktop-icon" isDark={isDark} />
     </>
   );
