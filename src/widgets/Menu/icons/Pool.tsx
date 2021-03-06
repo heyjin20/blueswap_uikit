@@ -4,7 +4,7 @@ import { SvgProps } from "../../../components/Svg/types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" {...props}>
+    <Svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" {...props}>
       <g fill="none" fill-rule="evenodd">
         <g fill="#000">
           <path
@@ -13,7 +13,7 @@ const Icon: React.FC<SvgProps> = (props) => {
           />
         </g>
       </g>
-    </svg>
+    </Svg>
 
     // <Svg viewBox="0 0 24 24" {...props}>
     //   <path d="M7.5 13C7.5 11.8954 8.39543 11 9.5 11H12.5C13.6046 11 14.5 11.8954 14.5 13V15C14.5 16.1046 13.6046 17 12.5 17H9.5C8.39543 17 7.5 16.1046 7.5 15V13Z" />

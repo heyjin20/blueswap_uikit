@@ -9,7 +9,7 @@ interface LogoProps extends SvgProps {
 const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
   const textColor = isDark ? "#FFFFFF" : "#000000";
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="136" height="34" viewBox="0 0 136 34" {...props}>
+    <Svg xmlns="http://www.w3.org/2000/svg" width="136" height="34" viewBox="0 0 136 34" {...props}>
       <defs>
         <filter id="u47apuouga">
           <feColorMatrix
@@ -40,7 +40,7 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
           </g>
         </g>
       </g>
-    </svg>
+    </Svg>
 
     // <Svg viewBox="0 0 205 26" {...props}>
     //   <image width="205" height="26" href={isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png'}/>

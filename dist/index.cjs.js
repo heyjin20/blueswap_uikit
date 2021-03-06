@@ -821,7 +821,7 @@ var style = (_a = {},
         fontSize: "64px",
     },
     _a);
-var Heading = styled__default['default'](Text).attrs({ bold: true })(templateObject_1$g || (templateObject_1$g = __makeTemplateObject(["\n  ", "\n  font-weight:900;\n  font-family: Nunito Black;\n  letter-spacing: 1.87px;\n  font-size: 20px;\n  line-height: 1.3;\n  color: #000;\n"], ["\n  ", "\n  font-weight:900;\n  font-family: Nunito Black;\n  letter-spacing: 1.87px;\n  font-size: 20px;\n  line-height: 1.3;\n  color: #000;\n"])), function (_a) {
+var Heading = styled__default['default'](Text).attrs({ bold: true })(templateObject_1$g || (templateObject_1$g = __makeTemplateObject(["\n  ", "\n  font-weight:900;\n  font-family: Nunito Black;\n  font-size: 18px;\n  line-height: 1.44;\n  color: #000000;\n"], ["\n  ", "\n  font-weight:900;\n  font-family: Nunito Black;\n  font-size: 18px;\n  line-height: 1.44;\n  color: #000000;\n"])), function (_a) {
     var size = _a.size;
     return style[size || sizes$1.MD];
 });
@@ -1767,7 +1767,7 @@ var useModal = function (modal, closeOnOverlayClick) {
 };
 
 var Icon$I = function (props) {
-    return (React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" }, props),
+    return (React__default['default'].createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" }, props),
         React__default['default'].createElement("g", { fill: "none", "fill-rule": "evenodd" },
             React__default['default'].createElement("g", { fill: "#000" },
                 React__default['default'].createElement("path", { "fill-rule": "nonzero", d: "M6.89 13.403c-.548.067-.938.566-.871 1.114.067.548.566.938 1.114.87.548-.066.938-.565.871-1.113-.067-.548-.566-.938-1.114-.871zM3.548 10.79c-.067-.55.323-1.048.871-1.115.549-.067 1.047.323 1.114.871.067.549-.323 1.047-.87 1.114-.55.067-1.048-.323-1.115-.87zM5.919 5.462c-.548.067-.938.566-.871 1.114.067.548.566.938 1.114.871.548-.067.938-.566.87-1.114-.066-.548-.565-.938-1.113-.871zM13.697 7.281c-.067-.548.323-1.047.872-1.114.548-.067 1.046.323 1.113.871.067.549-.322 1.047-.87 1.114-.549.067-1.048-.323-1.115-.87zM9.993 8.879c-.549.067-.939.565-.872 1.114.067.548.566.938 1.114.87.549-.066.939-.565.872-1.113-.067-.548-.566-.938-1.114-.871zM9.393 5.037c-.067-.548.323-1.047.871-1.114.549-.067 1.047.323 1.114.871.067.548-.323 1.047-.87 1.114-.55.067-1.048-.323-1.115-.871z", transform: "translate(2 2)" }),
@@ -1805,7 +1805,7 @@ var Icon$L = function (props) {
 };
 
 var Icon$M = function (props) {
-    return (React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" }, props),
+    return (React__default['default'].createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" }, props),
         React__default['default'].createElement("g", { fill: "none", "fill-rule": "evenodd" },
             React__default['default'].createElement("g", { fill: "#000" },
                 React__default['default'].createElement("path", { d: "M8.415.395c.381-.117.789-.117 1.17 0l2.986.918c1.557.479 3.037 1.182 4.39 2.089 1.054.705.555 2.348-.713 2.348H1.752c-1.268 0-1.767-1.643-.714-2.348 1.354-.907 2.834-1.61 4.391-2.09L8.415.396zm.73 1.434c-.095-.029-.195-.029-.29 0l-2.985.918c-1.18.363-2.312.868-3.37 1.503h13c-1.058-.635-2.19-1.14-3.37-1.503l-2.986-.918z", transform: "translate(3 2)" }),
@@ -1823,8 +1823,11 @@ var Icon$N = function (props) {
 
 var Icon$O = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React__default['default'].createElement("path", { d: "M5 7C5 6.44772 4.55228 6 4 6C3.44772 6 3 6.44772 3 7V18C3 19.1046 3.89543 20 5 20H20C20.5523 20 21 19.5523 21 19C21 18.4477 20.5523 18 20 18H5V7Z" }),
-        React__default['default'].createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M19 17H7C6.44772 17 6 16.5523 6 16V12C6 11.4477 6.44772 11 7 11H10V10C10 9.44772 10.4477 9 11 9H14V7C14 6.44772 14.4477 6 15 6H19C19.5523 6 20 6.44772 20 7V16C20 16.5523 19.5523 17 19 17ZM16 8H18V15H16V8ZM12 15H14V11H12V15ZM10 13H8V15H10V13Z" })));
+        React__default['default'].createElement("g", { fill: "none", "fill-rule": "evenodd" },
+            React__default['default'].createElement("g", { fill: "#000" },
+                React__default['default'].createElement("g", null,
+                    React__default['default'].createElement("path", { "fill-rule": "nonzero", d: "M9 7.75c.414 0 .75.336.75.75v5c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-5c0-.414.336-.75.75-.75zM9 6c.552 0 1-.448 1-1s-.448-1-1-1-1 .448-1 1 .448 1 1 1z", transform: "translate(-3 -3) translate(3 3)" }),
+                    React__default['default'].createElement("path", { d: "M.25 9C.25 4.168 4.168.25 9 .25S17.75 4.168 17.75 9 13.832 17.75 9 17.75.25 13.832.25 9zM9 1.75C4.996 1.75 1.75 4.996 1.75 9S4.996 16.25 9 16.25s7.25-3.246 7.25-7.25S13.004 1.75 9 1.75z", transform: "translate(-3 -3) translate(3 3)" }))))));
 };
 
 var Icon$P = function (props) {
@@ -1834,7 +1837,7 @@ var Icon$P = function (props) {
 
 var Logo = function (_a) {
     _a.isDark; var props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: "136", height: "34", viewBox: "0 0 136 34" }, props),
+    return (React__default['default'].createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg", width: "136", height: "34", viewBox: "0 0 136 34" }, props),
         React__default['default'].createElement("defs", null,
             React__default['default'].createElement("filter", { id: "u47apuouga" },
                 React__default['default'].createElement("feColorMatrix", { in: "SourceGraphic", values: "0 0 0 0 0.219608 0 0 0 0 0.541176 0 0 0 0 0.968627 0 0 0 1.000000 0" }))),
@@ -1862,7 +1865,7 @@ var Icon$Q = function (props) {
 };
 
 var Icon$R = function (props) {
-    return (React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" }, props),
+    return (React__default['default'].createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" }, props),
         React__default['default'].createElement("g", { fill: "none", "fill-rule": "evenodd" },
             React__default['default'].createElement("g", { fill: "#000", "fill-rule": "nonzero" },
                 React__default['default'].createElement("g", null,
@@ -1879,7 +1882,7 @@ var Icon$S = function (props) {
 };
 
 var Icon$T = function (props) {
-    return (React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" }, props),
+    return (React__default['default'].createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" }, props),
         React__default['default'].createElement("g", { fill: "none", "fill-rule": "evenodd" },
             React__default['default'].createElement("g", { fill: "#000" },
                 React__default['default'].createElement("path", { d: "M2.94.512c1.558-.177 3.133-.177 4.692 0l1.596.182c.228.026.432.155.553.35.12.197.145.437.066.653L7.645 7.713H10c.246 0 .476.121.617.323.14.203.172.46.085.691l-.19.507c-1.322 3.52-3.19 6.808-5.535 9.745l-.391.49c-.199.248-.533.344-.834.239-.3-.105-.502-.39-.502-.708v-7.152H1.429c-.389 0-.713-.297-.747-.684L.559 9.782C.35 7.444.35 5.092.559 2.755l.123-1.382c.031-.355.308-.639.662-.68l1.595-.18zm4.523 1.49c-1.447-.164-2.908-.164-4.354 0l-.987.113-.069.772c-.2 2.25-.2 4.513 0 6.762l.062.699H4c.414 0 .75.335.75.75v5.704c1.702-2.342 3.101-4.892 4.163-7.589H6.57c-.244 0-.474-.12-.614-.32s-.174-.457-.09-.687l2.244-6.13-.648-.073z", transform: "translate(7 2)" }))))
@@ -1918,7 +1921,7 @@ var Icon$W = function (props) {
 };
 
 var Icon$X = function (props) {
-    return (React__default['default'].createElement("svg", __assign({ xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" }, props),
+    return (React__default['default'].createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" }, props),
         React__default['default'].createElement("g", { fill: "none", "fill-rule": "evenodd" },
             React__default['default'].createElement("g", { fill: "#000", "fill-rule": "nonzero" },
                 React__default['default'].createElement("g", null,
